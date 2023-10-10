@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>Form Registrasi</h2>
+    
+        
+    <form action="#" method="post" name="form-input" enctype="multipart/form-data">
+
+       <fieldset> 
+        <table>
+        <legend>BIODATA</legend>
+    
+        <tr>
+            <td><label for="nama">Nama :</label></td>
+            <td><input type="text" name="txtnim" required id="nama" placeholder="Masukan Nama Anda"></td>
+
+            </tr>
+    
+            <tr>
+            <td><label for="nim">Nim :</label></td>
+            <td><input type="text" name="txtnim" required id="nim" placeholder="Masukan Nim Anda"></td>
+            </tr>
+    
+    
+   
+            <tr>
+            <td><label for="jk">Jenis Kelamin :</label></td>
+            <td><input type="radio" name="rdjk" id="jk" value="p" ><label for="label" for="rdp">Pria</label>
+            <input type="radio" name="rdjk" id="jk" value="w" ><label for="label" for="rdw">Wanita</label></td>
+            </tr>
+        
+        
+    
+
+        <tr>
+        <td><label for="">Tanngal Lahir</label></td>
+        <td><input type="date"  name="dttgl_lahir"></td>
+     </tr>
+     
+
+
+ 
+
+        
+     <tr> 
+        <td><label for="Jurusan">jurusan :</label></td>
+        <td> <select name="optjurusan" id="jurusan">
+ <option value="">Pilih...</option>
+ <option value="PTI">TI</option>
+ <option value="DKV">PTI</option>
+ <option value="HUKUM">HUKUM</option>
+ <option value="FARMASIs">FARMASI</option>
+ <option value="MANAJEMEN">MANAJEMEN</option>
+                
+                </select>
+                </tr>
+
+    
+              <tr>
+                <td><label >Hobby :</label> </td>
+                    <td> <input type="checkbox" name="chkhoby[]" value="membaca" > Membaca
+                        <input type="checkbox" name="chkhoby[]" value="menulis" > Menulis
+                             <input type="checkbox" name="chkhoby[]" value="menangis" > Menangis</td>
+    </tr>
+
+     
+
+     <tr>
+        <td><label> Alamat :</label></td>
+        <td> <textarea name="txtalamat" cols="30" rows="3" placeholder="Alamat anda"></textarea></td>
+        </tr>
+
+    
+
+         <tr>
+            <td> <label >Foto :</label></td>
+                <td> <input type="file" value="Choose File" name="choosefile"></td>
+         </tr>
+
+
+        </table>
+
+          </fieldset>
+
+
+<fieldset>
+    <table>
+    <legend>BUAT AKUN</legend>
+    <tr>
+          <td><label for="username"> Username :</label></td>
+          <td><input  type="text" name="txtuser" required id="Username" placeholder=""></td> 
+        </tr>
+        
+
+          <tr>
+          <td><label for="email"> Email :</label></td>
+          <td><input type="text" name="txtemail" required id="email" placeholder=""></td>
+        </tr> 
+        
+
+          <tr>
+          <td><label for="sandi"> Sandi :</label></td>
+          <td><input type="password" name="txtsd" required id="sandi" placeholder=""></td> 
+        </tr>
+          
+
+          <tr>
+          <td><label for="konfirmasisandi"> Konfirmasi Sandi :</label></td>
+          <td><input type="password" name="txtusd" required id="konfirmasisandi" placeholder=""></td> 
+          </tr>
+          
+
+          
+        </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <table>
+        <legend>LEARNIG OUTCOMES</legend>
+        <tr>
+            <td><td>
+                <input type="checkbox" name="chkhoby[]" value="HTML" > HTML <br>
+                        <input type="checkbox" name="chkhoby[]" value="SQL" > CSS <br>
+                             <input type="checkbox" name="chkhoby[]" value="JS" > SQL <br>
+                             <input type="checkbox" name="chkhoby[]" value="PHP" > PHP <br>
+            </td></td>
+        </tr>
+            </table>
+        </fieldset>
+
+        <input type="submit" value="Simpan Data" name="bttnsimpan">
+     <input type="reset" value="Batal" name="btnbatal">
+     <input type="button" value="Bantuan" name="bantuan"> 
+    
+     
+    
+
+
+
+    
+
+     </form>
+
+    
+    
+
+    
+</body>
+</html>
